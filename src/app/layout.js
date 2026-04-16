@@ -7,6 +7,11 @@ export const metadata = {
   description: 'Sistem Informasi Pengelolaan Administrasi dan Verifikasi UKK - Kementerian Koperasi dan UKM',
 };
 
+export const viewport = {
+  width: 'device-width',
+  initialScale: 1,
+};
+
 export default function RootLayout({ children }) {
   return (
     <html lang="id" suppressHydrationWarning>

@@ -100,3 +100,94 @@ aside a:hover {
 .feature-card:hover {
   transform: translateY(-5px) !important;
 }
+
+/* ============================================
+   MOBILE RESPONSIVE (Max 768px = Tablet/HP)
+   ============================================ */
+@media (max-width: 768px) {
+  /* Navbar mobile */
+  .nav-desktop-menu {
+    display: none !important;
+  }
+  .nav-hamburger {
+    display: flex !important;
+  }
+
+  /* Hero section */
+  .hero-section {
+    padding: 8rem 1.25rem 5rem !important;
+    min-height: auto !important;
+  }
+  .hero-title {
+    font-size: 2.5rem !important;
+  }
+  .hero-subtitle {
+    font-size: 0.85rem !important;
+    letter-spacing: 0.1em !important;
+  }
+
+  /* Dashboard grid: stack vertically */
+  .dashboard-grid {
+    grid-template-columns: 1fr !important;
+    gap: 1.5rem !important;
+  }
+
+  /* Section padding */
+  .section-pad {
+    padding-top: 4rem !important;
+    padding-bottom: 4rem !important;
+    padding-left: 1.25rem !important;
+    padding-right: 1.25rem !important;
+  }
+
+  /* Team cards: stack */
+  .team-flex {
+    flex-direction: column !important;
+    align-items: center !important;
+    gap: 1.5rem !important;
+  }
+  .team-card {
+    min-width: unset !important;
+    width: 100% !important;
+    max-width: 340px !important;
+  }
+
+  /* Upload section */
+  .upload-box {
+    padding: 2rem 1.25rem !important;
+  }
+
+  /* Footer contact */
+  .footer-grid {
+    flex-direction: column !important;
+    gap: 2rem !important;
+  }
+  .footer-map {
+    width: 100% !important;
+    border-radius: 12px !important;
+    overflow: hidden !important;
+  }
+
+  /* Informasi page docs */
+  .doc-card {
+    padding: 1.25rem !important;
+  }
+  .doc-icon-wrap {
+    display: none !important;
+  }
+
+  /* Recharts: smaller font */
+  .recharts-cartesian-axis-tick text {
+    font-size: 10px !important;
+  }
+}
+
+/* Small phones (max 480px) */
+@media (max-width: 480px) {
+  .hero-title {
+    font-size: 2rem !important;
+  }
+  .section-title {
+    font-size: 1.6rem !important;
+  }
+}
