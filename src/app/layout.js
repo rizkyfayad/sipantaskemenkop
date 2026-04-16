@@ -4,7 +4,7 @@ import { ThemeProvider } from '@/components/ThemeProvider';
 
 export const metadata = {
   title: 'SI PANTAS UKK',
-  description: 'Sistem Informasi Pengelolaan Administrasi dan Verifikasi UKK - Kementerian Koperasi dan UKM',
+  description: 'Sistem Informasi Pengelolaan Administrasi dan Verifikasi UKK - Kementerian Koperasi RI',
   icons: {
     icon: '/favicon-kemenkop.png',
     apple: '/favicon-kemenkop.png',

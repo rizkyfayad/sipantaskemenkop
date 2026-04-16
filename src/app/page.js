@@ -119,7 +119,7 @@ export default function Home() {
             }}
           >
             Sistem Informasi Pengelolaan Administrasi dan Verifikasi UKK<br/>
-            Kementerian Koperasi dan UKM RI
+            Kementerian Koperasi RI
           </motion.p>
         </div>
       </div>
